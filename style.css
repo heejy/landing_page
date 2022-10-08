@@ -8,6 +8,8 @@ body {
     font-family: "Roboto";
 }
 
+/*** HERO/NAVBAR SECTION ****/
+
 .hero {
     color: white;
     background-color: #1F2937;
@@ -42,7 +44,6 @@ nav ul {
     margin: 100px 0px;
     display: flex;
     flex-direction: row;
-    
 }
 
 .hero--header {
@@ -57,7 +58,7 @@ nav ul {
 }
 
 .hero--button {
-    background-color: #3882F6;
+    background-color: #5d3cfc;
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
@@ -73,4 +74,46 @@ nav ul {
     justify-content: center;
     align-items: center;
     background-color: grey;
+}
+
+/**** FIRST SECTION ****/
+.first-section {
+    background-color: white;
+    color: black;
+    padding: 50px 250px;
+}
+
+.first-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.square-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.square-images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square-image {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #5d3cfc;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.square-image-subtext {
+    color: #1F2937;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
