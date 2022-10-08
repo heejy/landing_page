@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 /*** HERO/NAVBAR SECTION ****/
@@ -44,6 +44,7 @@ nav ul {
     margin: 100px 0px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .hero--header {
@@ -58,6 +59,7 @@ nav ul {
 }
 
 .hero--button {
+    font-family: "Roboto", sans-serif;
     background-color: #5d3cfc;
     color: #F9FAF8;
     border: none;
@@ -138,4 +140,40 @@ nav ul {
     font-weight: 700;
     font-size: 24px;
     margin-top: 10px;
+}
+
+/**** CALL SECTION ****/
+.call--section {
+    padding: 100px 200px;
+    background-color: white;
+}
+
+.call-div {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-around;
+    background-color: #5d3cfc;
+    color: #F9FAF8;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.call-button {
+    font-family: "Roboto", sans-serif;
+    background-color: #5d3cfc;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    border: 2px solid #F9FAF8;
+}
+
+/***** FOOTER  *****/
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
